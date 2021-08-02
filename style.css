@@ -1,0 +1,42 @@
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  letter-spacing :0.2rem;
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+  font-size: 3rem;
+}
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+
+main {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.btn {
+  text-transform: uppercase;
+  background: transparent;
+  color: black;
+  padding: 0.375rem 0.75rem;
+  letter-spacing:0.1rem;
+  display: inline-block;
+  border: 2px solid rgb(41, 29, 29);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 0.5rem;
+}
+.btn:hover {
+  color: white;
+  background: black;
+}
